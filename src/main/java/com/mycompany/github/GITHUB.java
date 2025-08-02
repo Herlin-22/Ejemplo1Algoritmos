@@ -11,11 +11,13 @@ package com.mycompany.github;
 public class GITHUB {
 
     public static void main(String[] args) {
-        Strinig nombre,edad;
+        Strinig nombre,edad, telefono;
         Scanner lector=new Scanner (System.in);
         System.out.println("Ingrese su nombre");
         nombre=lector.next ();
         System.out.println("Ingrese Edad");
         edad=lector.next();
+        System.out.println("Ingrese su teléfono");
+        telefono=lector.next();
     }
 }
